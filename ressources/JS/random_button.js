@@ -26,7 +26,14 @@ function displayRandomImages()
      height: "195"
     } ];
     
-    
+    var arrayLength = imageArray.length;
+    var newArray = [];
+    for (var i = 0; i < arrayLength; i++) {
+        newArray[i] = new Image();
+        newArray[i].src = imageArray[i].src;
+        newArray[i].width = imageArray[i].width;
+        newArray[i].height = imageArray[i].height;
+    }
    
   function getRandomNum(min, max) 
   {
