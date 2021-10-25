@@ -1,14 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-color: hotpink;
+	background-color: whitesmoke;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: red;
   position: fixed;
   top: 0;
   width: 100%;
@@ -20,15 +21,16 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: red;
 }
 
 .active {
   background-color: #04AA6D;
+}
