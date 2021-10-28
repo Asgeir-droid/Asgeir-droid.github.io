@@ -50,4 +50,3 @@ function displayRandomImages()
   }
   document.body.appendChild(newImage);
 }
-
