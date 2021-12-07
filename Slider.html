@@ -8,16 +8,25 @@
 	</head>
 	
 	<body>
-		<li><a href="index.html">Hjem</a></li>
-		<li><a href="eksempel.html">Eksempel</a></li>
-		<li><a href="randombuton.html">Tilfeldig bilde</a></li>
-		<li><a class="active" href="Slider.html"></a>Bilde slider</li>
+		<ul>
+			<li><a href="index.html">Hjem</a></li>
+			<li><a href="eksempel.html">Eksempel</a></li>
+			<li><a href="randombuton.html">Tilfeldig bilde</a></li>
+			<li><a class="active" href="Slider.html">Bilde slider</a></li>
+			<li><a href="nettbank.html">NettBank</a></li>
+		</ul><br><br>
+		
+		<h1>Bilde Slider</h1>
 		
 		
-		<div class="slidecontainer">
-			<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-			<p>Verdi: <span id="demo"></span></p>
-		</div>
+		<center>
+			<div class="slidecontainer">
+				<img id="Bilde" src="ressources/IMAGES/dog-4465690__340.webp" alt="hund" width="50%">
+				<input type="range" min="1" max="100" value="100" class="slider" id="myRange">
+				<p>Verdi: <span id="demo"></span></p>
+			</div>
+		</center>
+		
 	   
 		<script src="ressources/JS/slider.js"></script>	
 	</body>

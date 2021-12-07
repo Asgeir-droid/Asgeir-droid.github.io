@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>quiz</title>
+		<link rel="stylesheet" href="ressources/CSS/main_css.css">
+	</head>   
+
+	<body>
+		<ul>
+			<li><a href="index.html">Hjem</a></li>
+			<li><a href="eksempel.html">Eksempel</a></li>
+			<li><a href="randombuton.html">Tilfeldig bilde</a></li>
+			<li><a href="Slider.html">Bilde slider</a></li>
+			<li><a href="nettbank.html">Nettbank</a></li>
+			<li><a class="active" href="quiz.html">Quiz</a></li>
+		</ul><br><br><br>
+		
+		<label>Kven er Statsminister i Norge i 2021?</label>
+		<input id="q1" type="text">
+		<br><br>
+		
+		<label>Kven er President i USA?</label>
+		<input id="q2" type="text">
+		<br><br>
+		
+		<label>Kva er 2 + 2?</label>
+		<input id="q3" type="number" name="svar" min="0" max="999">
+		<br><br>
+		
+		<label>Kva er 4*4?</label>
+		<input id="q4" type="number" name="svar" min="0" max="999">
+		<br><br>
+		
+		<label>Kva farge er det Norge sitt flagg?</label>
+		<input type="checkbox" name="svar">
+		<label>blå, gul</label>
+  		<input id="q5" type="checkbox" name="svar">
+  		<label> rød, kvit, blå</label>
+		<input type="checkbox" name="svar">
+		<label> rød, grønn, blå</label>
+		<br><br>
+		
+		<label>Kva land er i Europa?</label>
+		<input id="q6" type="checkbox" name="svar">spania
+		<input type="checkbox" name="svar"> uzbekistan
+		<input type="checkbox" name="svar"> maroco
+		<br><br>
+		
+		<label>Kva land var Leonardo da Vinci født?</label>
+		<input id="q7" type="text">
+		<br><br>
+		
+		<label>Kva kjønn er Greta Tunberg?</label>
+		<input id="q8" type="radio" name="svar"> hokjønn
+		<input type="radio" name="svar"> hankjønn
+		<input type="radio" name="svar"> ingen av di
+		<br><br>
+		
+		<label>Kva er 2*4/8?</label>
+		<input id="q9" type="number" name="svar" value="1"> 
+		<br><br>
+		
+		
+		<label>Når slutta 2.verdenskrig i Norge?</label>
+		<input id="q10" type="text" name="svar" value="8.mai 1945">
+		<br><br>
+		<input type="button" onClick="chekAnswer()" value="Sjekk dine svar">
+		
+		<script src="ressources/JS/quiz.js"> </script>
+	</body>
+</html>

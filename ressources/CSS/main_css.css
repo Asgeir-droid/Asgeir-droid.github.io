@@ -1,7 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background-color: whitesmoke;
+	background-color: white
+}
+
+p{
+	color: white
 }
 
 ul {
@@ -33,13 +37,4 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #04AA6D;
-}
-
-
-
-body {
-	paddig: 25px;
-	background-color: white;
-	color: black;
-	font-size: 25px;
 }

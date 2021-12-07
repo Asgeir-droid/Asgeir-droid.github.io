@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>nettbank</title>
+		<link rel="stylesheet" href="ressources/CSS/main_css.css">
+
+	</head>
+
+	<body>
+		<ul>
+			<li><a href="index.html">Hjem</a></li>
+			<li><a href="eksempel.html">Eksempel</a></li>
+			<li><a href="randombuton.html">Tilfeldig bilde</a></li>
+			<li><a href="Slider.html">Bilde slider</a></li>
+			<li><a class="active" href="nettbank.html">Nettbank</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+		</ul><br><br>
+		
+		<form method="method" style="text-align: center">
+			<p id="fp">feil pin</p>
+			<p id="rp">rett pin. Du har tatt ut pengar</p>
+			<p id="rpob">Du har rett pin, men det er over saldoen din!</p>
+			<input type="number" name="name" placeholder="skriv inn pin-kode" id="pinkode"> <br><br>
+			<input type="number" name="name" placeholder="kor mykkje du vil ta ut" id="pengar">
+			<input type="button" onClick="skjekBank()" value="trykk">
+		</form>
+		
+		
+		
+		<script src="ressources/JS/bank.js"></script>
+	</body>
+</html>
