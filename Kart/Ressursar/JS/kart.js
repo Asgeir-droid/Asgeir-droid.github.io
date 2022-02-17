@@ -21,8 +21,8 @@ ctx.fillText("1.etasje", 425, 60);
 ctx.moveTo(530, 170);
 ctx.arc(480, 170, 50, 0, 2 * Math.PI);
 ctx.font = "20px Verdana";
-ctx.fillText("Elektro", 430, 175);
-ctx.fillText("vg1", 430, 190);
+ctx.fillText("Elektro", 440, 175);
+ctx.fillText("vg1", 450, 195);
 
 //Teoribygg 3D
 ctx.moveTo(200, 5);
