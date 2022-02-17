@@ -1,5 +1,5 @@
 //Finn ID til canvas elemetet i HTML og viser at den skal teikne i 2D
-let canvas = document.getElementById("canvas");
+let canvas = document.getElementById("kart");
 let ctx = canvas.getContext("2d");
 
 //Teoribygg
