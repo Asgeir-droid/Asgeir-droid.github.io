@@ -38,3 +38,18 @@ li a:hover:not(.active) {
 .active {
   background-color: #04AA6D;
 }
+
+.text{
+  color: black;
+  font-family: Verdana;
+  font-size: small;
+}
+
+h1{
+  color: black;
+  font-family: Verdana;
+}
+
+iframe {
+  float: right;
+}

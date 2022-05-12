@@ -23,5 +23,5 @@ function skjekBank(){
 		document.getElementById("rpob").style.color = "blue";
 		document.getElementById("rp").style.color = "white";
 		document.getElementById("fp").style.color = "white";
-    }
+    } 
 }	

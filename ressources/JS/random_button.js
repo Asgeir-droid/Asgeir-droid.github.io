@@ -7,22 +7,22 @@ function displayRandomImages()
    { 
      src: "ressources/IMAGES/bulldog-1047518__340.webp",
 
-     width: "320",
+     width: "400",
      height: "195"
    }, 
    {
      src: "ressources/IMAGES/dog-4465690__340.webp",
-     width: "320",
+     width: "400",
      height: "195"
    }, 
    {
      src: "ressources/IMAGES/friends-1149841__340.webp",
-     width: "320",
+     width: "400",
      height: "195"
    },
    {
      src: "ressources/IMAGES/pug-801826_960_720.webp",
-     width: "320",
+     width: "400",
      height: "195"
     } ];
     

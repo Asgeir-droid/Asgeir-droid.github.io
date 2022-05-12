@@ -1,4 +1,4 @@
-// JavaScript Document
+	// JavaScript Document
 function chekAnswer(){
 	var poeng = 0;
 	var a1 = document.getElementById("q1");
