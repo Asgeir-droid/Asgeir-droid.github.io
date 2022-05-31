@@ -35,6 +35,11 @@ li a:hover:not(.active) {
   background-color: red;
 }
 
+h1{
+  color: black;
+  font-family: Verdana;
+}
+
 .active {
   background-color: #04AA6D;
 }
@@ -43,13 +48,15 @@ li a:hover:not(.active) {
   color: black;
   font-family: Verdana;
   font-size: small;
+  text-align: center;
 }
 
-h1{
-  color: black;
+.class {
+  float: left;
+}
+
+#header {
+  text-align: Center;
+  font-size: x-large;
   font-family: Verdana;
-}
-
-iframe {
-  float: right;
 }
